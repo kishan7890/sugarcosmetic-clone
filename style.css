@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#offer-div{
+    /* width: 99%; */
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(121, 3, 123);
+}
+#offer-div>div{
+   width: 45%; 
+}
+#offer-div>div>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#offer-div>li{
+    text-decoration: none;
+}
+
+#search-and-logo{
+    /* width: 97%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+#logo-div{
+    margin-top: 8px;
+    width: 20%;
+}
+#logo-div>img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#search-div{
+    width: 45%;
+}
+#search-div>input{
+    width: 80%;
+    /* height: 35px; */
+    border-radius: 10px;
+    padding: 10px;
+}
+#search-div>button{
+    /* height: 35px; */
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#third-div{
+    width: 25%;
+    
+}
+#third-div>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#navlist{
+    /* width: 100%; */
+    padding: 14px;
+    background-color: rgb(49, 48, 48);
+}
+#navlist>ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+#navlist>ul>li{
+    text-decoration: none;
+    font-size: 17px;
+    color: azure;
+    list-style: none;
+    cursor: pointer;
+}
+
+#banner-container::-webkit-scrollbar{
+    display: none;
+}
+#banner-container{
+    display: flex;
+    overflow: auto;
+    margin-top: 120px;
+}
+#banner-container>img{
+    width: 100%;
+}
+#prev{
+    position: absolute;
+    top: 40%;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+#next{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+#clubvenet{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#clubvenet>h1{
+    text-align: center;
+    margin: 10px;
+}
+#clubvenet>div{
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+#clubvenet>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#products>div::-webkit-scrollbar{
+    display: none;
+}
+
+#products{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+#products>div{
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#products>div>img{
+    width: 80%;
+    height: 65%;
+}
+
+#best-seller{
+    background-color: rgb(74, 73, 73);
+    text-align: center;
+    padding: 10px;
+}
+#best-seller>div>div{
+    background: white;
+}
+#wishlist{
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+#addbag{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+#festive-zone>div{
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
+#festive-zone>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#festive-zone{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#festive-zone>h1{
+    text-align: center;
+    margin: 10px;
+}
+
+
+#curatedkiit>div::-webkit-scrollbar{
+    display: none;
+}
+
+#curatedkit{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+#curatedkit>div{
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 10px;
+    padding: 10px;
+}
+#curatedkit>div>img{
+    width: 80%;
+    height: 65%;
+}
+
+#kit{
+    background-color: rgb(74, 73, 73);
+    text-align: center;
+    padding: 10px;
+}
+#kit>div>div{
+    background: white;
+}
+
+
+#footer{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+#footer>div{
+    width: 90%;
+    margin: auto;
+}
+#footer>div>h3{
+    margin-bottom: 50px;
+}
+#footer>div>h2,p{
+    text-align: center;
+    margin-top: 10px;
+}
+#footer>div>div{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#footer>div>div>input{
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 13px;
+}
+#footer>div>div>button{
+    width: 20%;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: brown;
+    margin-top: 13px;
+}
+
